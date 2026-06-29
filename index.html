@@ -3,197 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Casey Muxlow</title>
-    <style>
-        :root {--blue: #58a6ff; --green: #238636; --bg: #0d1117; --card: #161b22; --border: #30363d; --text: #8b949e;}
-        
-        /* Set the main page here */
-        body 
-        {
-            background-color: var(--bg); 
-            color: white; 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-            margin: 0;
-            padding: 0;
-            display: block;
-            min-height: 100vh;
-        }
-        
-        .container 
-        { 
-            width: 100vw; 
-            max-width: 100%; 
-            margin: 0 auto;
-            padding: 10px;
-            box-sizing: border-box;
-            box-shadow: none; 
-            border: none; 
-            border-radius: 0; 
-            background-color: var(--bg); 
-            text-align: center; 
-        }
-        /*------------------------------------------------*/
-        
-        /* Set the banner information/variables here */
-        .hero-banner
-        {
-            position: relative;
-            width: 100%;
-            height: 600px;
-            overflow: hidden;
-            margin-bottom: 20px;
-        }
-        
-        .hero-content
-        {
-            background: rgba(0, 0, 0, 0.6);
-            backdrop-filter: blur(8px);
-            padding: 30px;
-            border-radius: 12px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            text-align: center;
-            max-width: 80%;
-        }
-        
-        .hero-banner-img
-        {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: center;
-            filter: brightness(60%);
-        }
-        
-        .hero-overlay
-        {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .hero-overlay-title
-        {
-            color: white;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-            font-size: 4rem;
-        }
-        .hero-overlay-text
-        {
-            color: white;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-            font-size: 2rem;
-            font-weight: 300;
-            letter-spacing: 1px;
-            opacity: 0.8;
-        }
-        
-        /* Set main page variables here */
-        
-        h1 
-        { 
-            color: var(--blue); 
-            letter-spacing: 2px; 
-            font-size: 1.5rem; 
-            margin-top: 0; 
-        }
-        
-        .section-title 
-        { 
-            color: var(--blue); 
-            font-size: 0.9rem; 
-            font-weight: bold; 
-            text-transform: uppercase; 
-            margin-top: 20px; 
-            display: block; 
-        }
-        
-        p 
-        { 
-            color: var(--text); 
-            line-height: 1.6; 
-            font-size: 0.95rem; 
-        }
-        
-        .btn 
-        { 
-            background: var(--green); 
-            color: white; 
-            border: none; 
-            padding: 14px; 
-            border-radius: 6px; 
-            cursor: pointer; 
-            font-weight: bold; 
-            width: 100%; 
-            transition: 0.2s; 
-            text-decoration: none; 
-            display: inline-block; 
-            margin-top: 10px; 
-            box-sizing: border-box; 
-        }
-        
-        .btn:hover 
-        { 
-            background: #2ea043; 
-            filter: brightness(1.1); 
-        }
-        
-        .btn-outline 
-        { 
-            background: transparent; 
-            border: 1px solid var(--border); 
-            color: var(--blue); 
-        }
-        
-        hr 
-        { 
-            border: 0; 
-            border-top: 1px solid var(--border); 
-            margin: 25px 0; 
-        }
-        
-        .warning-box 
-        { 
-            border: 1px solid #6e1d1d; 
-            background: #2e0a0a; 
-            padding: 15px; 
-            border-radius: 6px; 
-            text-align: left;
-        }
-        
-        /* Set the Nav Bar up here */
-        .navbar
-        {
-            background: #0d1117;
-            padding: 1rem 0;
-            border-bottom: 1px solid #30363d;
-            text-align: center;
-        }
-        .nav-container
-        {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-        .nav-link
-        {
-            color: #c9d1d9;
-            text-decoration: none;
-            font-weight: bold;
-            padding: 8px 16px;
-            border-radius: 6px;
-            transition: background 0.2s, color 0.2s;
-        }
-        .nav-link:hover
-        {
-            background: #1f242c;
-            color: white;
-        }
-    </style>
+    <title>Casey Muxlow Portfolio</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 <div class="hero-banner">
@@ -206,43 +17,56 @@
     </div>
 </div>
 
+<hr>
+
 <nav class="navbar">
     <div class="nav-container">
         <a href="index.html" class="nav-link">Home</a>
-        <a href="unreal.html" class="nav-link">Unreal Engine</a>
-        <a href="unity.html" class="nav-link">Unity</a>
-        <a href="blender.html" class="nav-link">Blender</a>
+        <a href="unreal.html" class="nav-link">Unreal Engine Projects</a>
+        <a href="unity.html" class="nav-link">Unity Projects</a>
+        <a href="blender.html" class="nav-link">Blender Projects</a>
     </div>
 </nav>
 
 
 <div class="container">
 
-    <span class="section-title">Advanced Focus In Unreal Engine and Unity</span>
-    <p>ARES provides high-fidelity performance tracking for <strong>Destiny 2, The Division 2, COD,</strong> and more. Our system evaluates gear, builds, and combat efficiency against the current meta.</p>
+    <span class="section-title">Welcome to my portfolio</span>
+    <p>Enjoy taking a look at some of my work below.</p>
+<hr>
+    <span class="section-title">Unreal Engine Example</span>
+    <div style="margin: 20px 0; padding: 20px; background: var(--bg);">
+        <p style="font-size: 0.85rem; color: var(--blue);">[Specter Virus Gameplay]</p>
+        
+        <div class="video-section">
+            <div class="video-container">
+                <iframe
+                        src="https://www.youtube.com/embed/zZDS4flIQb8?si=etwUobUxrnWO1sXy"
+                        title="YouTube video player"
+                        allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-text">
+                <h2>Specter Virus Overview</h2>
+                <p>
+                    SpecterVirus is a first-person horror shooter. Play as CIA operative Winslow and venture into a quarantined zone to find answers to many questions. 
+                    Find all research documents in the level to uncover the truth behind all the reports coming in.
+                    <strong>I am the Combat, UI, Interactable Object, Gameplay, Menus, SFX, VFX, and Player programmer on this.</strong>
+                </p>
+               
 
-    <span class="section-title">System Briefing</span>
-    <div style="margin: 20px 0; padding: 20px; border: 1px solid var(--border); border-radius: 8px; background: rgba(0,0,0,0.3);">
-        <p style="font-size: 0.85rem; color: var(--blue);">[ENCRYPTED MEDIA FILE DETECTED]</p>
+                <span class="section-title">Want to learn more about my work on Specter Virus?</span>
+                <p>Please select the link below.</p>
 
-        <a href="https://youtu.be/LUei3vAGxls" target="_blank" style="text-decoration: none;">
-            <div style="position: relative; border: 1px solid var(--blue); border-radius: 4px; overflow: hidden; background: #000;">
-                <img src="https://img.youtube.com/vi/LUei3vAGxls/0.jpg" style="width: 100%; opacity: 0.6;" alt="ARES Briefing Video">
-                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; background: rgba(88, 166, 255, 0.4); padding: 10px 20px; border: 2px solid var(--blue); border-radius: 4px; font-weight: bold;">
-                    ▶ PLAY BRIEFING
+                <div style="display: flex; gap: 10px;">
+                    <a href="spectervirus.html" target="_blank" class="btn btn-outline">Specter Virus Project</a>
+
                 </div>
             </div>
-        </a>
-        <p style="font-size: 0.75rem; margin-top: 10px;">View the ARES command center and registration flow in action.</p>
+        </div>
     </div>
 
-    <span class="section-title">Want to learn more?</span>
-    <p>To learn more about ARES systems and tools please select the link below.</p>
-
-    <div style="display: flex; gap: 10px;">
-        <a href="https://casey-muxlow.github.io/Ares-Public/systems.html" target="_blank" class="btn btn-outline">ARES Systems</a>
-
-    </div>
+   
 
     <hr>
 
