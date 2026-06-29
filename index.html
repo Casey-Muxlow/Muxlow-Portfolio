@@ -164,6 +164,35 @@
             border-radius: 6px; 
             text-align: left;
         }
+        
+        /* Set the Nav Bar up here */
+        .navbar
+        {
+            background: #0d1117;
+            padding: 1rem 0;
+            border-bottom: 1px solid #30363d;
+            text-align: center;
+        }
+        .nav-container
+        {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .nav-link
+        {
+            color: #c9d1d9;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 16px;
+            border-radius: 6px;
+            transition: background 0.2s, color 0.2s;
+        }
+        .nav-link:hover
+        {
+            background: #1f242c;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -176,6 +205,17 @@
         </div>
     </div>
 </div>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="unreal.html" class="nav-link">Unreal Engine</a>
+        <a href="unity.html" class="nav-link">Unity</a>
+        <a href="blender.html" class="nav-link">Blender</a>
+    </div>
+</nav>
+
+
 <div class="container">
 
     <span class="section-title">Advanced Focus In Unreal Engine and Unity</span>
