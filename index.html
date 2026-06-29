@@ -7,6 +7,7 @@
     <style>
         :root {--blue: #58a6ff; --green: #238636; --bg: #0d1117; --card: #161b22; --border: #30363d; --text: #8b949e;}
         
+        /* Set the main page here */
         body 
         {
             background-color: var(--bg); 
@@ -31,6 +32,9 @@
             background-color: var(--bg); 
             text-align: center; 
         }
+        /*------------------------------------------------*/
+        
+        /* Set the banner information/variables here */
         .hero-banner
         {
             position: relative;
@@ -39,6 +43,18 @@
             overflow: hidden;
             margin-bottom: 20px;
         }
+        
+        .hero-content
+        {
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(8px);
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+            max-width: 80%;
+        }
+        
         .hero-banner-img
         {
             width: 100%;
@@ -75,6 +91,8 @@
             letter-spacing: 1px;
             opacity: 0.8;
         }
+        
+        /* Set main page variables here */
         
         h1 
         { 
@@ -152,8 +170,10 @@
 <div class="hero-banner">
     <img src="assets/logos/WebsiteBanner.webp" class="hero-banner-img" alt="Portfolio Banner">
     <div class="hero-overlay">
-        <h1 class="hero-overlay-title">Casey Muxlow Portfolio</h1>
-        <p class ="hero-overlay-text"><strong>Combat/Player/Enemy/Level Designer and Developer.</strong></p>
+        <div class="hero-content">
+            <h1 class="hero-overlay-title">Casey Muxlow Portfolio</h1>
+            <p class ="hero-overlay-text"><strong>Combat/Player/Enemy/Level Designer and Developer.</strong></p>
+        </div>
     </div>
 </div>
 <div class="container">
