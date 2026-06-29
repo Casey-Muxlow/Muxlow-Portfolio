@@ -59,11 +59,20 @@
             justify-content: center;
             align-items: center;
         }
-        .hero-overlay h1
+        .hero-overlay-title
         {
             color: white;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-            font-size: 3rem;
+            font-size: 4rem;
+        }
+        .hero-overlay-text
+        {
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+            font-size: 2rem;
+            font-weight: 300;
+            letter-spacing: 1px;
+            opacity: 0.8;
         }
         
         h1 
@@ -142,12 +151,11 @@
 <div class="hero-banner">
     <img src="assets/logos/WebsiteBanner.webp" class="hero-banner-img" alt="Portfolio Banner">
     <div class="hero-overlay">
-        <h1>Casey Muxlow </h1>
+        <h1 class="hero-overlay-title">Casey Muxlow Portfolio</h1>
+        <p class ="hero-overlay-text"><strong>Combat/Player/Enemy/Level Designer and Developer.</strong></p>
     </div>
 </div>
 <div class="container">
-
-    <p><strong>Combat/Player/Enemy/Level Designer and Developer.</strong></p>
 
     <span class="section-title">Advanced Focus In Unreal Engine and Unity</span>
     <p>ARES provides high-fidelity performance tracking for <strong>Destiny 2, The Division 2, COD,</strong> and more. Our system evaluates gear, builds, and combat efficiency against the current meta.</p>
