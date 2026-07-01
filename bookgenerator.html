@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Procedural Book Generator</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="hero-banner">
+    <img src="assets/logos/SpecterVirusBanner.webp" class="hero-banner-img" alt="Portfolio Banner">
+    <div class="hero-overlay">
+        <div class="hero-content">
+            <h1 class="hero-overlay-title">Procedural Book Generator</h1>
+            <p class ="hero-overlay-text"><strong>Complete Solo Indie Project Designed For Beastslayer: Origins.</strong></p>
+        </div>
+    </div>
+</div>
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="unreal.html" class="nav-link">Unreal Engine Projects</a>
+        <a href="unity.html" class="nav-link">Unity Projects</a>
+        <a href="blender.html" class="nav-link">Blender Projects</a>
+        <a href="aboutme.html" class="nav-link">About Me</a>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div style="margin: 20px 0; padding: 20px; background: var(--bg);">
+        <img src="assets/projects/BeastslayerBook.webp" class="about-container" alt="Procedural Book">
+        <h1>Procedural Book Generator Details</h1>
+        <div class="tech-tags">
+            <span>Target Engine</span>
+            <span class="tag">Unreal Engine 5.2.1</span>
+            <span style="margin-left: 40px">Implementation Type</span>
+            <span class="tag">Code Based</span>
+            <span style="margin-left: 40px">Language</span>
+            <span class="tag">C++</span>
+            <span style="margin-left: 40px">Development Duration</span>
+            <span class="tag">On-Going</span>
+            <span style="margin-left: 40px">Team Size</span>
+            <span class="tag">1</span>
+            <span style="margin-left: 40px">Genre</span>
+            <span class="tag">Procedural</span>
+        </div>
+        <hr>
+        <h1>Project Scope and Team Dynamics</h1>
+        <p>
+            I am still working on this project I have been coding different ways to have the books spawn in the bookshelf.
+        </p>
+        <hr>
+        <h1>My Individual Contributions</h1>
+        <h2>Design and Systems</h2>
+        <div class="about-section">
+            <div class="about-container">
+                <img src="assets/projects/BookGenerator.webp" class="about-container" alt="Book Generator">
+                <img src="assets/projects/BookGenerator1.webp" class="about-container" alt="Book Generator">
+            </div>
+            <div class="about-text">
+                <p>
+                    I have designed the books in a way that allows the user to select which row, direction, and amount of angle that a book should lean.
+                    The generator has a pro version and a basic version that both feature different options. The bookshelves and books can then be placed in a scene and then merged.
+                    The merging is the only step I am still working on as I am trying to figure out a 
+                    way to allow the control to merge actors occur without requiring the permissions in the .ini.
+                </p>
+                    <img src="assets/projects/BookCode.webp" class="about-container" alt="Book Code">
+                    <img src="assets/projects/BookCode1.webp" class="about-container" alt="Book Code">
+            </div>
+        </div>
+        <hr>
+        <div class="about-section">
+            <div class="about-container">
+                <img src="assets/projects/BookTexture.webp" class="about-container" alt="Book Texture">
+                <img src="assets/projects/BookTexture1.webp" class="about-container" alt="Book Texture">
+            </div>
+            <div class="about-text">
+                <p>
+                    I aligned these textures onto a single texture for the procedural. Some of these textures I created while some come from very popular games.
+                    These textures are aligned so that there are 16 individual textures per 1 4K texture to allow for texture atlasing for high optimization.
+                    Inside Unreal Engine you make your master material then make instances of the master while changing the texture.
+                    Once you complete that you then place all of your material instances into the respective containers and iterate over them to create many different books.
+                    This allowed me to create over 262,000 different assets utilizing 5 4K texture atlases and one empty texture to ensure no book repeats.
+                </p>
+                <img src="assets/projects/BookCode2.webp" class="about-container" alt="Book Code">
+                <img src="assets/projects/BookCode3.webp" class="about-container" alt="Book Code">
+            </div>
+        </div>
+       
+        <hr>
+        <h2>On-Going Development</h2>
+        
+        <h1>More coming soon...</h1>
+    </div>
+</div>
+</body>
+</html>
