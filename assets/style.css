@@ -305,17 +305,41 @@ hr
 {
     flex: 1;
 }
+
+/* Mobile Section */
 @media (max-width: 768px) 
 {
     
-    .container 
+    .container
     {
         width: 100% !important;
     }
     
-    .hero-banner 
+    .hero-banner
     {
         height: 300px !important;
+        width: 100% !important;
+    }
+    .hero-content 
+    {
+        max-width: 90% !important;
+        padding: 15px !important;  
+    }
+    
+    .hero-banner-img
+    {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .hero-overlay-title 
+    {
+        font-size: 1.5rem !important;
+    }
+    
+    .hero-overlay-text 
+    {
+        font-size: 0.9rem !important;
     }
     
     .video-section,
@@ -337,5 +361,21 @@ hr
     .video-container 
     {
         padding-bottom: 56.25% !important;
+        width: 100% !important;
+    }
+
+    .video-container iframe
+    {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .nav-container {
+        flex-direction: column !important;
+        gap: 10px !important;              
+    }
+
+    .navbar {
+        padding: 10px !important;
     }
 }
