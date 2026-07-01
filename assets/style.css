@@ -305,3 +305,37 @@ hr
 {
     flex: 1;
 }
+@media (max-width: 768px) 
+{
+    
+    .container 
+    {
+        width: 100% !important;
+    }
+    
+    .hero-banner 
+    {
+        height: 300px !important;
+    }
+    
+    .video-section,
+    .doc-container,
+    .about-section 
+    {
+        flex-direction: column !important;
+    }
+    
+    .about-container,
+    .doc-left,
+    .doc-right,
+    .doc-img 
+    {
+        width: 100% !important;
+        height: auto !important;
+    }
+    
+    .video-container 
+    {
+        padding-bottom: 56.25% !important;
+    }
+}
